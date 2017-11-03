@@ -5,6 +5,19 @@ This programm calculates images from basic Cellular Automata. It can calculate t
 [https://en.wikipedia.org/wiki/Elementary_cellular_automaton](https://en.wikipedia.org/wiki/Elementary_cellular_automaton) 
 
 ## Table of Contents
+- [Black CAB](#black-cab)
+  * [Table of Contents](#table-of-contents)
+  * [Getting Started](#getting-started)
+    + [Prerequisites](#prerequisites)
+    + [Examples](#examples)
+  * [Notes](#notes)
+  * [Built With](#built-with)
+  * [Notes](#notes-1)
+  * [Contributing](#contributing)
+  * [Contact](#contact)
+  * [License](#license)
+  * [Acknowledgments](#acknowledgments)
+
 
 ## Getting Started
 Compile and run. 
@@ -34,7 +47,7 @@ for a different starting block
 for randomized start and a different filename to save the result
 
 ## Notes
-
+This code is a work in progress. The code is pretty verbose but this should make it very easy for other people to add and or modify the code to their liking. Visualizing CAs is like a exploring a strange and foreign world, modifying code is essential for revealing structure. After all, have fun and happy exploring.   
 
 ## Built With
 
@@ -61,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* A big hello to all the happy coders out there.
+* A big hello to all the happy coders out there
