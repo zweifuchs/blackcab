@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
-$RESULTS = "results"
+RESULTS=imgs
 
-if [ ! -d "$RESULTS" ]; then
-  mkdir -p "$RESUTS"
+if [ ! -d $RESULTS ]; then
+  echo $RESULTS
+  mkdir -p $RESULTS
 fi
 
 for VAR in {0..255}
 do
-    ./ca5 -pop 401 -generations 401 -file imgs/ca_rule_"$VAR"_pop401.png -rule $VAR
+    ./blackcab -pop 400 -generations 400 -file "$RESULTS"/ca_rule_"$VAR".png -rule $VAR
 done
