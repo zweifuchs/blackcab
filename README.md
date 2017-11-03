@@ -48,7 +48,15 @@ for randomized start and a different filename to save the result
 ```
 blackcab -help
 ```
-show commandline help / options 
+show help / options 
+
+
+## Notes
+This code is a work in progress. The code is pretty verbose but this should make it very easy for other people to add and or modify the code to their liking. Visualizing CAs is like a exploring a strange and foreign world, modifying code is essential for revealing structure. After all, have fun and happy exploring.   
+
+## Built With
+
+* [GO](https://golang.org/) - Golang
 
 ## Notes
 This code is a work in progress. The code is pretty verbose but this should make it very easy for other people to add and or modify the code to their liking. Visualizing CAs is like a exploring a strange and foreign world, modifying code is essential for revealing structure. After all, have fun and happy exploring.   
